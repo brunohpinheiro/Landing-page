@@ -1,5 +1,5 @@
 /* ======================== TOP BAR ======================== */
-header {
+.top-bar {
   display: flex;
   justify-content:space-between;
   align-items:center;
@@ -67,9 +67,15 @@ main {
   justify-content:space-between;
   white-space: nowrap;
   min-width:1170px;
+
 }
 
 /* ======================== CONTEÚDO PRINCIPAL ======================== */
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
 .texto {
   display: flex;
   flex-direction: column;
@@ -83,7 +89,7 @@ main {
   margin: 0;
 }
 
-h1 {
+.texto h1 {
   margin-top: 18px;
   font-size: 62px;
   line-height: 1.2;
