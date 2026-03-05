@@ -1,0 +1,123 @@
+/* ======================== TOP BAR ======================== */
+header {
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+/* Menu central */
+.menu-central {
+  font-size: 16px;
+}
+
+.menu-central ul {
+  gap: 40px;
+  display:flex;
+  list-style: none;
+}
+
+.menu-central li a {
+	gap:40px;
+  color: #2F3A3B;
+  text-decoration: none;
+}
+
+.home-menu-central {
+  font-weight: 600;
+}
+
+/* Credenciais */
+
+.login {
+  font-weight: 400;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.login ul {
+  gap: 24px;
+  display: flex;
+  align-items:center;
+  list-style: none;
+
+}
+
+.login li a {
+  display: flex;
+  color: #2F3A3B;
+  text-decoration: none;
+}
+
+.login .signup {
+  padding: 12px 24px;
+  border: solid 1px #1EBFC1;
+  border-radius: 6px;
+  color: #1EBFC1;
+  font-weight: 600;
+}
+
+.signup:hover{
+  background-color: #19abab;
+  border: solid 1px #19abab;
+  color: #FFFFFF;
+}
+
+main {
+  display: flex;
+  justify-content:space-between;
+  white-space: nowrap;
+  min-width:1170px;
+}
+
+/* ======================== CONTEÚDO PRINCIPAL ======================== */
+.texto {
+  display: flex;
+  flex-direction: column;
+  vertical-align: top;
+  padding-top: 143px;
+}
+
+.texto .overline {
+  font-size: 14px;
+  color: #767E7E;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 18px;
+  font-size: 62px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #0D1111;
+}
+
+.texto p {
+  font-size: 18px;
+  margin-top: 46px;
+  margin-bottom: 52px;
+  color: #9DA6A5;
+}
+
+.get-started {
+  color: #FFFFFF;
+  line-height: 4;
+  border-radius: 14px;
+  background-color: #1EBFC1;
+  padding: 20px 41px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.get-started:hover {
+background-color: #169797;
+/* alterar cor */
+}
+
+main figure {
+  padding: 30px 0 0 0;
+}
+
+main figure img {
+  width: 750px;
+}

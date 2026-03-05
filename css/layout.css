@@ -1,0 +1,30 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fontes */
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fontes/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fontes/Poppins-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fontes/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+
+body {
+  padding: 52px 120px;
+  font-family: 'Poppins', sans-serif;
+  min-width:1170px;
+}

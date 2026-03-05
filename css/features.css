@@ -1,0 +1,50 @@
+.texto-features p {
+    color: #767E7E;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#features-p1 {
+    font-weight: 700;
+    font-size: 0.75rem;
+    margin-bottom: 1.125rem;
+    letter-spacing: 0.25rem;
+}
+
+.texto-features h2 {
+    color: #0D1111;
+    font-weight: 700;
+    font-size: 2.625rem;
+    margin-bottom: 1.125rem;
+}
+
+#features-p2 {
+    font-size: 1.125rem;
+    margin-bottom: 5rem;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 13rem;
+}
+
+.features-grid h3{
+    color: #0D1111;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.features-grid p{ 
+    color: #9DA6A5;  
+    font-weight: 400;  
+}
+
+.icone{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    ;
+}
