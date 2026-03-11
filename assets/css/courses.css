@@ -1,22 +1,28 @@
-.features {
+.courses {
     display: flex;
     flex-direction: column;
     margin-top: 130px;
 }
 
-.texto-features {
-    flex-direction: column;
-    margin-bottom: 80px;
+.courses-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.texto-features .features-overline {
+.texto-courses {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-courses .courses-overline {
     font-size: 12px;
     margin-bottom: 18px;
     letter-spacing: 8px;
     font-weight: 700;
 }
 
-.texto-features p{
+.texto-courses p {
     color: #767E7E;
     font-weight: 400;
     flex-direction: column;
@@ -24,7 +30,7 @@
     font-size: 18px;
 }
 
-.texto-features h2 {
+.texto-courses h2 {
     color: #0D1111;
     line-height: 56px;
     font-size: 42px;
@@ -32,26 +38,10 @@
     font-weight: 700;
 }
 
-.features-grid {
+.link-courses {
     display: flex;
-    justify-content: space-around;
-}
-
-.features-grid h3{
-    color: #0D1111;
-    font-weight: 600;
-    font-size: 1.25rem;
-}
-
-.features-grid p{ 
-    color: #9DA6A5;  
-    font-weight: 400;  
-}
-
-.icone{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    ;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1EBFC1;
+    align-items: flex-end;
 }
