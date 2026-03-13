@@ -45,3 +45,9 @@
     color: #1EBFC1;
     align-items: flex-end;
 }
+
+.courses-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 79px;
+}
